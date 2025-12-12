@@ -72,5 +72,11 @@
   },
   "engines": {
     "node": ">=22"
+  },
+    "name": "vercel-secured",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@vercel/edge": "^1.1.1"
   }
 }
