@@ -65,18 +65,13 @@
     "dotenv": "^17.2.3",
     "emoji-name-map": "^2.0.3",
     "github-username-regex": "^1.0.0",
-    "word-wrap": "^1.2.5"
+    "word-wrap": "^1.2.5",
+    "@vercel/edge": "^1.1.1"
   },
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
   },
   "engines": {
     "node": ">=22"
-  },
-    "name": "vercel-secured",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@vercel/edge": "^1.1.1"
   }
 }
